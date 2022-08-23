@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Criando um Site</title>
+</head>
+<body>
+	<header>
+	<h1 class="titulo-principal">CRIANDO NOSSO PRIMEIRO SITE</h1>
+	</header>
+	<p>
+	Para editar este site, será necessário enteder alguns conceitos, como o conceito de <em>tags</em>
+	</p>
+
+	<p>
+	Por exemplo: para iniciar parágrafos, usa-se a tag "p", estando entre "< >", que é o que simboliza a tag, sendo então tudo o que está dentro dos sinais. Para fechar um parágrafo, usa-se "/p".
+
+	</p>
+
+	<p>
+	Para texto em negrito, usa-se "strong" na tag, para dar um destaque visual e semantico à palavra ou frase. Para itálico, usa-se "em" na tag.
+	</p>
+
+	<p>
+	O comando "!DOCTYPE" é usado para informar <em>ao navegador</em> a versão do HTML que está sendo usada. Como estamos editando com HTML 5, esta versão facilita o uso deste comando, de modo que apenas escrevendo a tag "!DOCTYPE html", o navegador já entenderá que está sendo usado a versão mais atual disponível do HTML.
+
+	</p>
+
+	<p style="text-align: justify;">
+
+	Todo o conteúdo escrito deve estar entre as tags "html" e "/html". E na primeira tag, pode-se fornecer o idioma no qual será escrito, entao "html lang="pt-br"" é usado, como consta na segunda linha deste arquivo.
+
+	</p>
+
+	<p style="text-align: justify;">
+
+	O comando "meta charset="UTF-8"" é usado para habilitar as acentuações necessárias em idiomas como o nosso portugês, para que seja exibido corretamente em qualquer navegador de qualquer usuário. Ou seja, para que se use o dicionário correto, mesmo que o navegador esteja configurado em outro idioma/dicionário.
+
+	</p>
+
+	<p style="text-align: justify;">
+	A tag usada para definir o título da página é a tag "title" e "/title"
+	</p>
+
+	<p style="text-align: justify;">
+	os comando "head" e "body" são a cabeça e o corpo, respectivamene. Para o "head", passamos comandos para o navegador em si, e o "body" são as informações que desejamos exibir na página.
+
+	</p>
+
+
+
+	<h3 id="titulo-centralizado"; font-size: 26px">Nesta aula, aprendemos:</h3>
+
+	<p style="font-size: 20px; text-align: center;">A definir a estrutura básica do HTML
+	Com a tag DOCTYPE, definimos qual versão do HTML estamos utilizando
+	A tag html, que marca o conteúdo a ser renderizado no navegador
+	Dentro desta tag, podemos definir a linguagem da página, através da propriedade lang
+	Como passar as informações do encoding da nossa página para o navegador, através da tag meta e da propriedade charset
+	Como definir o título de uma página, através da tag title
+	Como separar as informações que estão sendo passadas para o navegador, utilizando a tag head
+	Como separar o conteúdo da página, utilizando a tag body</p>
+
+	<p style="font-size: 30px; text-align: center;">
+	Como mudar o alinhamento dos textos? Como mudar o tamanho das letras? Essas próximas etapas de edi~ção de texto são feitas através do CSS, dento do próprio HTML.
+
+	<h3>ARQUIVO INTERNO (IN LINING) E EXTERNO CSS</h3>
+	<p>Inlining são comando do CSS para estilizar o texto na linha do texto. </p>
+
+	<p>Para fazer a mesma edição, de forma separada do texto, podemos escrever os comando dentro do "head" da linha 8 à linha 12.</p>
+
+	<p>Outra forma de fazer tais edições, é criando um novo arquivo, chamado "Style.CSS" na mesma pasta em que o arquivo '.html' está salvo, e jogando toda a edição de estilos para esse arquivo. Após isso, basta apenas fazer sa referencia a este arquivo dentro do ".html"</p>
+
+	<p>A diferença do "inlining" para os outros métodos, é que o inlining será aplicado apenas do elemento onde foi criado, mas os outros dois médotos aplicarão em TUDO.</p>
+</body>
+</html>

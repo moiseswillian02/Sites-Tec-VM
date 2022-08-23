@@ -1,0 +1,53 @@
+body{
+	background-color: #E5E2C4;
+}
+/*-------------------------------------Edições da página principal-------------------------------------*/
+.apresentacao{
+	background-color: #E5E2C4;
+}
+
+.topicos{
+	background-color: #CCABA1;
+	padding: 2px;
+}
+/*-------------------------------Padronização de edições das páginas----------------------------------*/
+#download_1{
+	width:  100%;
+} /*Identificadores são marcados no css via sinal #*/
+
+.titulo-principal{
+	background-color: #CCABA1;
+	padding-left: 20px;
+}
+
+.titulo-centralizado{
+	text-align: center;
+	color: red;
+	font-size: 30px;
+}
+
+
+p{
+	text-align: justify;
+	font-size: 24px;
+/*	color:  #363C46;
+*/}
+.itens{
+	font-style: italic;
+}
+/*classes são marcadas via ponto (.)
+ antes do nome da classe*/
+.exemplo{
+	text-align: center;
+	font-size: 28px;
+}
+
+/*-------------------------------Edições da página de algoritmos----------------------------------*/
+.atividades{
+
+}
+
+.nivel{
+	font-style: italic;
+}
+/*-----------------------------------------------------------------------------------------------*/
